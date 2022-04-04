@@ -1,17 +1,64 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Display2 from './Display2'
+import Display3 from './Display3';
+import ListDemo from './ListDemo';
+import ReadInput from './ReadInput';
+import SimpleStateDemo from './SimpleStateDemo';
+
+//const message=<h1>Hello React!!!</h1>
+
+// function Display(){  // Component
+//   console.log('In display component');
+//   return(
+//       <div>
+//         <h1>Hello React!!!</h1>
+//         <p>This is a Paragraph.</p>
+//         <Display1/>
+//       </div>
+//   )
+// }
+
+// function Display1(){
+//     return(
+//       <div>
+//        <h2>Another Component!!!</h2>
+//        <Display2/>
+//        </div> 
+//     )
+// }
+
+// const Display2=()=>{
+//   return(
+//     <div>
+//      <h2>In Display2 Component!!!</h2>
+//      <Display3/>
+//      </div>
+//   )
+// }
+
+// class Display3 extends React.Component{
+//     render(){
+//       return(
+//          <h3>In class component!!!</h3>
+//       )
+//     }
+// }
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+   <SimpleStateDemo/>   
+   ,  // what has to be rendered?
+  document.getElementById('root')  // where to render
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// ReactDOM.render(
+//   <Display3/>   
+//   ,  // what has to be rendered?
+//  document.getElementById('root123')  // where to render
+// );
+
+// <div>
+// <h1>Hello React!!!</h1>
+// <p>This is a Paragraph.</p>
+// </div>
+
