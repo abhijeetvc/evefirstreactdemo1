@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Display2 from './Display2'
 import Display3 from './Display3';
 import ListDemo from './ListDemo';
+import ParentComponent from './ParentComponent';
 import ReadInput from './ReadInput';
 import SimpleStateDemo from './SimpleStateDemo';
 
