@@ -5,6 +5,7 @@ import Display3 from './Display3';
 import ListDemo from './ListDemo';
 import ParentComponent from './ParentComponent';
 import ReadInput from './ReadInput';
+import ReadInputObj from './ReadInputObj';
 import SimpleStateDemo from './SimpleStateDemo';
 
 //const message=<h1>Hello React!!!</h1>
@@ -47,7 +48,7 @@ import SimpleStateDemo from './SimpleStateDemo';
 // }
 
 ReactDOM.render(
-   <SimpleStateDemo/>   
+   <ReadInputObj/>   
    ,  // what has to be rendered?
   document.getElementById('root')  // where to render
 );

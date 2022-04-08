@@ -6,6 +6,7 @@ function ReadInput(){
     const[data,setData]=React.useState('')
 
     const onValueChange=(event)=>{
+        console.log(event.target);
         setInput(event.target.value)
     }
 
@@ -15,7 +16,8 @@ function ReadInput(){
 
     return(
         <div>
-            <input type="text" onChange={onValueChange}/>
+            <input type="text" name="firstName" onChange={onValueChange}/>
+            <input type="text" name="lastName" onChange={onValueChange}/>
             <button type='button' onClick={displayData}>Display</button>
             <p>Input Value is: {data}</p>
         </div>
