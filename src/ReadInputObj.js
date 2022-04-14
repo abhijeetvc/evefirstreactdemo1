@@ -6,15 +6,21 @@ function ReadInputObj(){
         lastName:'',
         city:''
     }
-
+    const data=[{
+        firstName:'abc',
+        lastName:'Xyz',
+        city:'Bangalore'
+    }]
+    
     const[user,setUser]=React.useState(userObj)
-    const[userList,setUserList]=React.useState([])
+    const[userList,setUserList]=React.useState(data)
 
     const handleInputChange=(event)=>{
         setUser({...user,[event.target.name]:event.target.value})
     }
 
     const displayData=()=>{
+        console.log(user);
         setUserList([...userList,user])
     }
 
@@ -32,7 +38,24 @@ function ReadInputObj(){
 
                 <button type='button' onClick={displayData}>Add</button>
                 
+                <DisplayList userList={userList}/>
+                
             </form>
+        </div>
+    )
+}
+
+function DisplayList({userList}){
+
+    return(
+        <div>
+            <ul>
+                {
+                    userList.map((item)=>(
+                        <li>{item.firstName +" "+item.lastName+" "+item.city}</li>
+                    ))
+                }
+            </ul>
         </div>
     )
 }

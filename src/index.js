@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ApiCall from './ApiCall';
+import ComponentLifeCycle from './ComponentLifeCycle';
+import ComponentLifeCycleHook from './ComponentLifeCycleHook';
 import Display2 from './Display2'
 import Display3 from './Display3';
 import ListDemo from './ListDemo';
@@ -48,7 +51,7 @@ import SimpleStateDemo from './SimpleStateDemo';
 // }
 
 ReactDOM.render(
-   <ReadInputObj/>   
+   <ApiCall/>   
    ,  // what has to be rendered?
   document.getElementById('root')  // where to render
 );
