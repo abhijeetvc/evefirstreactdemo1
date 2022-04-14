@@ -51,7 +51,7 @@ import SimpleStateDemo from './SimpleStateDemo';
 // }
 
 ReactDOM.render(
-   <ApiCall/>   
+   <ComponentLifeCycleHook/>
    ,  // what has to be rendered?
   document.getElementById('root')  // where to render
 );
