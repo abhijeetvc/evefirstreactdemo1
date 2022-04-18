@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ApiCall from './ApiCall';
+
 import ComponentLifeCycle from './ComponentLifeCycle';
 import ComponentLifeCycleHook from './ComponentLifeCycleHook';
 import Display2 from './Display2'
@@ -51,9 +51,9 @@ import SimpleStateDemo from './SimpleStateDemo';
 // }
 
 ReactDOM.render(
-   <ComponentLifeCycleHook/>
+   <ComponentLifeCycle/>
    ,  // what has to be rendered?
-  document.getElementById('root')  // where to render
+   document.getElementById('root')  // where to render
 );
 
 // ReactDOM.render(
