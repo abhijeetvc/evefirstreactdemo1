@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import CallBackEvent from './CallBackEvent';
 
 import ComponentLifeCycle from './ComponentLifeCycle';
 import ComponentLifeCycleHook from './ComponentLifeCycleHook';
@@ -51,7 +52,7 @@ import SimpleStateDemo from './SimpleStateDemo';
 // }
 
 ReactDOM.render(
-   <ComponentLifeCycle/>
+   <CallBackEvent/>
    ,  // what has to be rendered?
    document.getElementById('root')  // where to render
 );
