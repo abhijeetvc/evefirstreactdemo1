@@ -11,18 +11,18 @@ function CallBackEvent(){
         <div>
             <h1>Parent Component</h1>
             <p>Text is: {input}</p>
-            <ChildComponent inputValue={input} 
+            <ChildComponent //inputValue={input} 
                             onInputChange={handleInputChange}/>
         </div>
     )
 }
 
-function ChildComponent({inputValue,onInputChange}){
+function ChildComponent({onInputChange}){
     return(
         <div>
             <h1>Child Component</h1>
             <input type='text' 
-                   value={inputValue} 
+                 //  value={inputValue} 
                    onChange={onInputChange}/>
         </div>
     )

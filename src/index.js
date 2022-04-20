@@ -11,6 +11,7 @@ import ParentComponent from './ParentComponent';
 import ReadInput from './ReadInput';
 import ReadInputObj from './ReadInputObj';
 import SimpleStateDemo from './SimpleStateDemo';
+import App from './App'
 
 //const message=<h1>Hello React!!!</h1>
 
@@ -52,7 +53,7 @@ import SimpleStateDemo from './SimpleStateDemo';
 // }
 
 ReactDOM.render(
-   <CallBackEvent/>
+   <App/>
    ,  // what has to be rendered?
    document.getElementById('root')  // where to render
 );
