@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8de4b2c3-b1d1-47dc-a066-3b4ba32b33aa" name="Changes" comment="Component Life Cycle Methods and useEffect">
-      <change afterPath="$PROJECT_DIR$/src/CallBackEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    <list default="true" id="8de4b2c3-b1d1-47dc-a066-3b4ba32b33aa" name="Changes" comment="React router">
+      <change afterPath="$PROJECT_DIR$/src/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650288308065</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="React router">
+      <created>1650460001188</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650460001188</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -100,6 +108,7 @@
     <MESSAGE value="Component Life Cycle" />
     <MESSAGE value="Component Life Cycle Methods" />
     <MESSAGE value="Component Life Cycle Methods and useEffect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Component Life Cycle Methods and useEffect" />
+    <MESSAGE value="React router" />
+    <option name="LAST_COMMIT_MESSAGE" value="React router" />
   </component>
 </project>
