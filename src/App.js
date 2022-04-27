@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './components/Home';
-import About from './components/About';
-import Services from './components/Services';
+
+import Home from './components/Home'
+import About from './components/About'
+import Services from './components/Services'
 import {BrowserRouter,Routes, Route, Link} from 'react-router-dom'
-import Register from './Register';
-import Login from './Login';
+import Register from './Register'
+import Login from './Login'
 
 function App() {
   return (

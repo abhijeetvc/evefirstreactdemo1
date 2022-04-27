@@ -12,6 +12,7 @@ import ReadInput from './ReadInput';
 import ReadInputObj from './ReadInputObj';
 import SimpleStateDemo from './SimpleStateDemo';
 import App from './App'
+import UseContextDemo from './UseContextDemo';
 
 //const message=<h1>Hello React!!!</h1>
 
@@ -53,7 +54,7 @@ import App from './App'
 // }
 
 ReactDOM.render(
-   <App/>
+   <UseContextDemo/>
    ,  // what has to be rendered?
    document.getElementById('root')  // where to render
 );
