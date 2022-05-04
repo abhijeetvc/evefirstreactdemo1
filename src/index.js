@@ -13,6 +13,8 @@ import ReadInputObj from './ReadInputObj';
 import SimpleStateDemo from './SimpleStateDemo';
 import App from './App'
 import UseContextDemo from './UseContextDemo';
+import AxiosDemo from './AxiosDemo';
+import UseMemoDemo from './UseMemoDemo';
 
 //const message=<h1>Hello React!!!</h1>
 
@@ -54,10 +56,13 @@ import UseContextDemo from './UseContextDemo';
 // }
 
 ReactDOM.render(
-   <UseContextDemo/>
+   <UseMemoDemo/>
    ,  // what has to be rendered?
    document.getElementById('root')  // where to render
 );
+
+// const root=ReactDOM.createRoot(document.getElementById("root"))
+// root.render(<UseMemoDemo/>)
 
 // ReactDOM.render(
 //   <Display3/>   
