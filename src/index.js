@@ -15,6 +15,7 @@ import App from './App'
 import UseContextDemo from './UseContextDemo';
 import AxiosDemo from './AxiosDemo';
 import UseMemoDemo from './UseMemoDemo';
+import UseReducerDemo from './UseReducerDemo';
 
 //const message=<h1>Hello React!!!</h1>
 
@@ -56,7 +57,7 @@ import UseMemoDemo from './UseMemoDemo';
 // }
 
 ReactDOM.render(
-   <UseMemoDemo/>
+   <UseReducerDemo/>
    ,  // what has to be rendered?
    document.getElementById('root')  // where to render
 );

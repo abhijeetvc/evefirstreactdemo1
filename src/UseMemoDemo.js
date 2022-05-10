@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 
 function UseMemoDemo(){
 
@@ -24,9 +24,10 @@ function UseMemoDemo(){
         setSearch(text)
     }
 
-    const filteredData=users.filter((user)=>{
+    const filteredData=useMemo(()=>users.filter((user)=>{
+        console.log('hiiiiiiiii');
         return user.name.includes(search)
-    })
+    }),[search]) // J Jo
 
     return(
         <div>

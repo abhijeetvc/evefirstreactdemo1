@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8de4b2c3-b1d1-47dc-a066-3b4ba32b33aa" name="Changes" comment="Context API" />
+    <list default="true" id="8de4b2c3-b1d1-47dc-a066-3b4ba32b33aa" name="Changes" comment="Use Memo">
+      <change beforePath="$PROJECT_DIR$/src/UseMemoDemo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UseMemoDemo.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651066540769</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Use Memo">
+      <created>1651670909521</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651670909521</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -113,6 +122,7 @@
     <MESSAGE value="Component Life Cycle Methods and useEffect" />
     <MESSAGE value="React router" />
     <MESSAGE value="Context API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Context API" />
+    <MESSAGE value="Use Memo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use Memo" />
   </component>
 </project>
